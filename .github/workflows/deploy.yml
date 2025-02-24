@@ -1,0 +1,33 @@
+name: Deploy Portfolio to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # This can be 'main' or your default branch name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # This specifies the environment to run the job on
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # This step checks out your repository's code
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # This installs Node.js (choose the version you need)
+
+      - name: Install dependencies
+        run: npm install  # Run 'npm install' to install project dependencies
+
+      - name: Build the site
+        run: npm run build  # Adjust this if you use a different command for your build process
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4  # This action deploys to GitHub Pages
+        with:
+          branch: gh-pages  # This is the branch to which your built project will be deployed
+          folder: build  # This should be the folder containing the build files (e.g., 'dist' or 'build')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication (automatically provided by GitHub)
