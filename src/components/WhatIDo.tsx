@@ -28,7 +28,7 @@ const WhatIDo = () => {
     <div className="whatIDO">
       <div className="what-box">
         <h2 className="title">
-          W<span className="hat-h2">HAT</span>
+          WH<span className="hat-h2">AT</span>
           <div>
             I<span className="do-h2"> DO</span>
           </div>
@@ -87,24 +87,23 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+              <h3>Data Engineering</h3>
+            <p>
+              As a Data Engineer, I focus on designing and building robust data pipelines, 
+              optimizing data storage,
+               and ensuring data quality for analysis.
+                Interest in Data security as well.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
+                <div className="what-tags">SQL & NoSQL Databases</div>
+                <div className="what-tags">ETL Pipelines</div>
+                <div className="what-tags">Data Warehousing</div>
+                <div className="what-tags">Cloud Platforms (AWS, GCP)</div>
                 <div className="what-tags">Css</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">React</div>
+               
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +127,19 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+              <h3>AI Enthusiast</h3>
+            
+             <p>
+              I’m passionate about exploring the intersection of AI and data science.
+               I focus on machine learning algorithms, data preprocessing, and AI-powered tools.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Machine Learning</div>
+                <div className="what-tags">Deep Learning</div>
+                <div className="what-tags">AI Tools</div>
+                <div className="what-tags">Python</div>
+               
               </div>
               <div className="what-arrow"></div>
             </div>

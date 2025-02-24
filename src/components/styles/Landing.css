@@ -244,53 +244,6 @@ h2.landing-info-h2 {
   top: 0;
   left: 0;
 }
-@media screen and (min-width: 500px) {
-  .landing-circle2 {
-    display: block;
-  }
-  .character-model {
-    z-index: 0;
-  }
-  .landing-info h3 {
-    font-size: 18px;
-  }
-  .landing-intro h2 {
-    font-size: 18px;
-  }
-  .landing-intro h1 {
-    font-size: 30px;
-    line-height: 30px;
-  }
-  .landing-info h2 {
-    font-size: 35px;
-    line-height: 40px;
-  }
-  h2.landing-info-h2 {
-    font-size: 38px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .character-model {
-    height: 80vh;
-  }
-  .landing-intro h2 {
-    font-size: 25px;
-  }
-  .landing-intro h1 {
-    font-size: 40px;
-    line-height: 35px;
-  }
-  .landing-info h3 {
-    font-size: 25px;
-  }
-  .landing-info h2 {
-    font-size: 45px;
-    line-height: 42px;
-  }
-  h2.landing-info-h2 {
-    font-size: 55px;
-  }
-}
 @media screen and (min-width: 1025px) {
   .character-model {
     height: 100vh;

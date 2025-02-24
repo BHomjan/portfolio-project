@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
+import HoverLinks from "./HoverLinks";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
@@ -39,19 +39,24 @@ const Navbar = () => {
       ScrollSmoother.refresh(true);
     });
   }, []);
+
   return (
     <>
       <div className="header">
+        {/* Logo inside navbar title */}
         <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
-        </a>
+    <img src="/images/luffy.png" alt="Luffy Logo" width="50" height="50" />
+  </a>
+        {/* Email link */}
         <a
-          href="mailto:example@mail.com"
+          href="mailto:bhomjanmanish4@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          bhomjanmanish4@gmail.com
         </a>
+
+        {/* Navigation Links */}
         <ul>
           <li>
             <a data-href="#about" href="#about">
@@ -71,6 +76,7 @@ const Navbar = () => {
         </ul>
       </div>
 
+      {/* Other Elements */}
       <div className="landing-circle1"></div>
       <div className="landing-circle2"></div>
       <div className="nav-fade"></div>

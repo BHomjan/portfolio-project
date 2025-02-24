@@ -15,43 +15,42 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Cloud Analyst</h4>
+                <h5>GrowByData</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Worked on cloud infrastructure monitoring and optimization. 
+              Assisted in data analysis, automation, and performance tuning of cloud-based applications.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Researcher</h4>
+                <h5>Everest Engineering College</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2024 - Present</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Conducting research on internet adoption in Nepal, focusing on 
+              digital literacy, socio-economic factors, and technological infrastructure. 
+              The study has been accepted for IEEE Conference 2025.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Data Engineer & AI Enthusiast</h4>
+                <h5>Independent Projects</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Developing projects related to data engineering and AI. 
+              Created an E-Notes platform for students and a web scraper for doctor schedules. 
+              Exploring advanced data analytics and machine learning solutions.
             </p>
           </div>
         </div>
@@ -61,3 +60,4 @@ const Career = () => {
 };
 
 export default Career;
+
